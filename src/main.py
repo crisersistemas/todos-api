@@ -191,6 +191,8 @@ def handle_user_images(username):
     elif request.method == "POST":
         # receive file, secure its name, save it and
         # create object to store title and image_url
+
+        
         response_body = {
             "result": "Image created, i guess"
         }
